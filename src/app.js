@@ -45,12 +45,21 @@ function renderEmployees(employees) {
 
         let tdDelete = document.createElement('td');
         let delButton = document.createElement('button');
-        delButton.textContent = 'Törlés';
+
+        delButton.classList.add("btn");
+        delButton.classList.add("btn-primary");
+
+        delButton.innerHTML = 'Törlés <i class="bi bi-trash"></i>';
         setEvent(delButton, employee.id);
         tdDelete.appendChild(delButton);
 
+        //szekeztes
         let tdEdit = document.createElement('td');
         let editButton = document.createElement('button');
+
+        editButton.classList.add("btn");
+        editButton.classList.add("btn-primary");
+
         setEditButtonEvent(editButton, employee);
         editButton.textContent = "Szerkeztés";
         tdEdit.appendChild(editButton);
@@ -107,7 +116,7 @@ saveButton.addEventListener('click',() => {
     actualTr.childNodes[3].textContent = editSalaryElem.value;
 
     updateEmployee();
-    
+
     editId.value  = '';
     editName.value  = '';
     editCity.value  = '';

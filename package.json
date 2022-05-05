@@ -14,5 +14,9 @@
   "devDependencies": {
     "json-server": "^0.17.0",
     "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "bootstrap-icons": "^1.8.1"
   }
 }
