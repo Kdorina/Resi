@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Resi</title>
+</head>
+<body>
+    <h1>Resi</h1>
+    <div class="urlap">
+        <div>
+            <label for="name">Név</label>
+            <input type="text" id="name">
+        </div>
+   
+        <div>
+            <label for="city">Település</label>
+            <input type="text" id="city">
+        </div>
+   
+        <div>
+            <label for="salary">Fizetés</label>
+            <input type="text" id="salary">
+        </div>
+        <button type="button" id="addButton"> Hozzáad</button>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Név</th>
+                <th>Település</th>
+                <th>Fizetés</th>
+
+            </tr>
+        </thead>
+        <tbody id="tableBody">
+
+        </tbody>
+    </table>
+
+    <div class="edit">
+        <div>
+            <label for="editId">Id</label>
+            <input type="text" id="editId" readonly>
+        </div>
+
+        <div>
+            <label for="editname">Név</label>
+            <input type="text" id="editname">
+        </div>
+   
+        <div>
+            <label for="editcity">Település</label>
+            <input type="text" id="editcity">
+        </div>
+   
+        <div>
+            <label for="editsalary">Fizetés</label>
+            <input type="text" id="editsalary">
+        </div>
+        <button type="button" id="saveButton"> Mentés</button>
+    </div>
+    
+
+    <script src="app.js"></script>
+</body>
+</html>

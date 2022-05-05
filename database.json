@@ -1,0 +1,34 @@
+{
+  "employees": [
+    {
+      "name": "Dorina",
+      "city": "Budapest",
+      "salary": "800",
+      "id": 1
+    },
+    {
+      "name": "Vagó András",
+      "city": "Szeged",
+      "salary": "455",
+      "id": 2
+    },
+    {
+      "name": "Virág János",
+      "city": "Győr",
+      "salary": "500",
+      "id": 3
+    },
+    {
+      "name": "Szabó Éva",
+      "city": "Szolnok",
+      "salary": "700",
+      "id": 4
+    },
+    {
+      "name": "Alma Anna",
+      "city": "Szeged",
+      "salary": "50",
+      "id": 5
+    }
+  ]
+}
